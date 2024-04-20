@@ -5,6 +5,6 @@ require('dotenv').config();
 const { PORT_SERVER } = process.env
 
 app.use("/api", routes)
-app.listen(PORT_SERVER, () => {
-    console.log(`Servidor corriendo en puerto ${PORT_SERVER} ✨`);
+app.listen(PORT, () => {
+    console.log(`Servidor corriendo en puerto ${PORT} ✨`);
 })
